@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme version="php">
+<id>toyean</id>
+<name>toyean</name>
+<url>http://www.toyean.com/post/toyean.html</url>
+<note>Copyright 2010-2014 拓源网 版权所有</note>
+<description>Copyright 2010-2014 拓源网 版权所有</description>
+<path></path>
+<include></include>
+<level>1</level>
+<author>
+  <name>toyean</name>
+  <email>toyean@qq.com</email>
+  <url>http://www.toyean.com/</url>
+</author>
+<source>
+  <name>toyean</name>
+  <email>toyean@qq.com</email>
+  <url>http://www.toyean.com</url>
+</source>
+<adapted>140220</adapted>
+<version>1.1</version>
+<pubdate>2014-05-06</pubdate>
+<modified>2014-05-07</modified>
+<price>0</price>
+<advanced>
+  <dependency></dependency>
+  <rewritefunctions></rewritefunctions>
+  <conflict></conflict>
+</advanced>
+<sidebars>
+  <sidebar1>calendar|catalog|previous|comments|link|misc</sidebar1>
+  <sidebar2></sidebar2>
+  <sidebar3></sidebar3>
+  <sidebar4></sidebar4>
+  <sidebar5></sidebar5>
+</sidebars>
+</theme>

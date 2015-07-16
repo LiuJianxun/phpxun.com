@@ -1,0 +1,1 @@
+<p><a href="<?php  echo $Article->mutuality->url;  ?>"><?php  echo $Article->mutuality->name;  ?></a>(<?php  echo $Article->mutuality->posttime;  ?>)</p>
