@@ -2,7 +2,7 @@
 <div class="toyean_single cate{$article.Category.ID} auth{$article.Author.ID}">
 <div class="toyean_top"></div>
 <div class="toyean_conbox">
-<div class="toyean_contitle"><h2>{$article.Title}</h2><span class="toyean_date">{$article.Time('Y-m-d')}</span> <span class="read_num">浏览:{$article.ViewNums}</span><div class="toyean_next"><img alt="{$article.Title}" src="http://qr.liantu.com/api.php?&bg=ffffff&m=5&w=100&text={$article.Url}"></div>
+<div class="toyean_contitle"><h2>{$article.Title}</h2><span class="toyean_date">{$article.Time('Y-m-d')}</span> <span class="read_num">浏览:{$article.ViewNums}</span><div class="toyean_next"><img alt="{$article.Title}" src="http://www.phpxun.com/zb_users/upload/2015/07/phpxun.png"></div>
 <div class="toyean_confunction"><a href="#comment" class="toyean_commentlink"><span></span>评论:({$article.CommNums})</a>
 <!-- Share Button BEGIN -->
 {$zbp->Config('toyean')->PostSHARE}

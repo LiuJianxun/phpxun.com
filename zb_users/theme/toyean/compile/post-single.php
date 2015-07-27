@@ -2,7 +2,7 @@
 <div class="toyean_single cate<?php  echo $article->Category->ID;  ?> auth<?php  echo $article->Author->ID;  ?>">
 <div class="toyean_top"></div>
 <div class="toyean_conbox">
-<div class="toyean_contitle"><h2><?php  echo $article->Title;  ?></h2><span class="toyean_date"><?php  echo $article->Time('Y-m-d');  ?></span> <span class="read_num">浏览:<?php  echo $article->ViewNums;  ?></span><div class="toyean_next"><img alt="<?php  echo $article->Title;  ?>" src="http://qr.liantu.com/api.php?&bg=ffffff&m=5&w=100&text=<?php  echo $article->Url;  ?>"></div>
+<div class="toyean_contitle"><h2><?php  echo $article->Title;  ?></h2><span class="toyean_date"><?php  echo $article->Time('Y-m-d');  ?></span> <span class="read_num">浏览:<?php  echo $article->ViewNums;  ?></span><div class="toyean_next"><img alt="<?php  echo $article->Title;  ?>" src="http://www.phpxun.com/zb_users/upload/2015/07/phpxun.png"></div>
 <div class="toyean_confunction"><a href="#comment" class="toyean_commentlink"><span></span>评论:(<?php  echo $article->CommNums;  ?>)</a>
 <!-- Share Button BEGIN -->
 <?php  echo $zbp->Config('toyean')->PostSHARE;  ?>

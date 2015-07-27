@@ -1,89 +1,46 @@
-<!DOCTYPE html>
-<html>
+﻿<!doctype html public "-//w3c//dtd xhtml 1.0 transitional//en" "http://www.w3.org/tr/xhtml1/dtd/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta charset="utf-8"/>
-<title>技术重在分享-404页面</title>
-<style>
-body{
-background:#eff1f0;
-font-family: microsoft yahei;
-font-size:14px;
-}
-.return-index {
-width:85px;
-height:30px;
-margin-left:15px;
-display:inline-block;
-background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFYAAAAgCAYAAACILY8rAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpCMkUwNDFBREVFRjFFMjExQjkyRkY5QkQxMjRGNDhDMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoxOTBFQjAwRUYzN0QxMUUyQTQ2QkVFMEExNDc4Nzk0RiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoxOTBFQjAwREYzN0QxMUUyQTQ2QkVFMEExNDc4Nzk0RiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjJCRUI1NjBCQjVGMkUyMTFCNkNBQjA1MTQ0OThDNUNFIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkIyRTA0MUFERUVGMUUyMTFCOTJGRjlCRDEyNEY0OEMxIi8+IDwvcmRmOkRlc2NyaXB0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);
-}
-.yunjiasu-logo {
-width:88px;
-height:32px;
-margin: 10px 0 0 10px;
-display:inline-block;
-}
-a {
-text-decoration:none;
-}
-a:link {
-color:#147fe1;
-}
-a:visited {
-color:#147fe1;
-}
-a:hover {
-color:#147fe1;
-text-decoration:underline
-}
-a:active {
-color:#147fe1;
-}
-.main-content {
-margin:80px auto 0;
-width:640px;
-}
-.top-div {
-position:relative;
-bottom:-80px;
-left:510px;
-width:120px;
-height:50px;
-}
-#redirect {
-font-size:12px;
-}
-#second {
-font-size:16px;
-font-weight:bold;
-color:#f50;
-vertical-align:-1px;
-}
-.foot-div {
-position:relative;
-top:-80px;
-margin-left:5px;
-width:630px;
-height:50px;
-background:#eff1f0;
-}
-.tip {
-color:#b1b0b0;
-float:right;
-margin:15px;
-font-size:14px;
-}
-.union {
-color: #b1b0b0;
-margin: 0 10px;
-}
-a.community-unit {
-padding: 0 10px;
-color: #b1b0b0;
-}
-</style>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv=refresh content="3;url = http://www.phpxun.com/">
+<title>404啦，您访问的网页不存在。。</title> 
 </head>
 <body>
-<div class="main-content" id="notice_404"></div>
-<div style="display:none;"><script charset="utf-8" src="http://yunjiasu.baidu.com/static/js/http_error.js?20130724"></script></div>
+<style type="text/css">
+body,ul,ol,li,p,dt,dl,dd,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,th,img,div{margin:0;padding:0}
+img { border:0}
+body{background:#fff;color:#333;font-size:12px;font-family:arial,'宋体'}
+ul,ol{list-style:none}
+h1,h2,h3,h4,h5,h6,em,stone,i{font-size:12px;font-weight:400}
+select,input,select{vertical-align:middle}
+a:link,a:visited{color:#333;text-decoration:none}
+a:hover,a:active,a:focus{color:#f60;text-decoration:underline}
+.clear{clear:both}
+.left { float:left; display:inline-block}
+.wrap { width:960px; overflow:hidden; margin:0 auto;}
+#top { height:43px; overflow:hidden; background:#343434; width:100%}
+#top ul { margin-left:20px;}
+#top li { float:left; display:inline-block; padding:0 15px;}
+#top a { color:#fff; font-size:14px; line-height:43px;}
+.login { float:right; display:inline-block;}
+.login a { padding-left:10px;}
+.m404 {margin:100px auto; vertical-align:middle; text-align:center}
+</style>
+<div id="top">
+  <div class="wrap">
+    <ul class="left">
+      <li><a href="http://www.phpxun.com" title="技精于积累而荒于废，用博客记录你我的成长历程...">开放、分享、共创</a></li>
+      <li><a href="http://www.phpxun.com" title="技精于积累而荒于废，用博客记录你我的成长历程...">首页</a></li>
+      <li><a href="http://www.phpxun.com/category-7.html" title="技精于积累而荒于废，用博客记录你我的成长历程...">Linux命令</a></li>
+      <li><a href="http://www.phpxun.com/category-11.html" title="技精于积累而荒于废，用博客记录你我的成长历程...">Git教程</a></li>
+      <li><a href="http://www.phpxun.com/category-6.html" title="技精于积累而荒于废，用博客记录你我的成长历程...">数据算法</a></li>
+      <li><a href="http://www.phpxun.com/category-2.html" title="技精于积累而荒于废，用博客记录你我的成长历程...">服务器</a></li>
+      <li><a href="http://www.phpxun.com/6.html" title="技精于积累而荒于废，用博客记录你我的成长历程...">关于我</a></li>
+    </ul>
+  </div>
+</div>
+
+
+<div class="m404"><a href="http://www.phpxun.com/"><img src="http://www.phpxun.com/zb_users/upload/2015/07/404.png" width="409" height="177" alt="“真的很抱歉，我们搞丢了页面……”要不去网站首页看看？" border="0"></a></div>
 </body>
 </html>
